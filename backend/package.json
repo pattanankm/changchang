@@ -1,0 +1,25 @@
+// {
+//   "scripts": {
+//     "dev": "nodemon src/app.js",
+//     "start": "node src/app.js",
+//     "prisma:migrate": "npx prisma migrate dev",
+//     "prisma:studio": "npx prisma studio",
+//     "seed": "node prisma/seed.js"
+//   },
+//   "prisma": {
+//     "seed": "node prisma/seed.js"
+//   }
+// }
+
+{
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:studio": "npx prisma studio",
+    "seed": "node prisma/seed.js"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
